@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrador usando HTML, CSS e JavaScript</title>
+    <!--MATERIAL ICONS CDN -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+        rel="stylesheet">
+        <!--GOOGLE FONTS (POPPINS)-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--STYLESHEET -->
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <img src="/images/logo.png" class="logo">
+                <div class="search-bar">
+                    <span class="material-icons-sharp">search</span>
+                    <input type="search">
+                </div><!--search-bar-->
+            <div class="profile-area">
+                    <div class="theme-btn">
+                        <span class="material-icons-sharp">dark_mode</span>
+                        <span class="material-icons-sharp active">light_mode</span>
+                    </div>
+                
+                    <div class="profile">
+                        <div class="profile-photo">
+                            <img src="/images/profile-1.jpg" alt="">
+                        </div><!--profile-photo-->
+                        <h5>Chu Hua</h5>
+                        <span class="material-icons-sharp">expand_more</span>
+                    </div><!--profile-->
+                    <button id="menu-btn">
+                        <span class="material-icons-sharp"> menu </span>
+                    </button>
+            </div><!--profile-area-->
+            
+        </div><!--container-->
+    </nav>
+    <!-------------------------------------END OF NAVBAR---------------------------------------------------------->
+    
+    <main>
+        <aside>
+            <button id="close-btn">
+                <span class="material-icons-sharp">close</span>
+            </button><!--end of close-btn-->
+
+            <div class="sidebar">
+                <a href="#" class="active">    
+                    <span class="material-icons-sharp"> dashboard</span>
+                    <h4>Dashboard</h4>
+                </a>
+
+                <a href="#">    
+                    <span class="material-icons-sharp"> currency_exchange</span>
+                    <h4>Exchange</h4>
+                </a>
+
+                <a href="#">    
+                    <span class="material-icons-sharp"> account_balance_wallet</span>
+                    <h4>Wallet</h4>
+                </a>
+
+                <a href="#">    
+                    <span class="material-icons-sharp"> payment</span>
+                    <h4>Transactions</h4>
+                </a>
+
+                <a href="#">    
+                    <span class="material-icons-sharp"> pie_chart</span>
+                    <h4>Analytics</h4>
+                </a>
+
+                <a href="#">    
+                    <span class="material-icons-sharp"> message</span>
+                    <h4>Messages</h4>
+                </a>
+
+                <a href="#">    
+                    <span class="material-icons-sharp"> help_center</span>
+                    <h4>Help Center</h4>
+                </a>
+
+                <a href="#">    
+                    <span class="material-icons-sharp"> settings</span>
+                    <h4>Settings</h4>
+                </a>
+            </div><!--end of sidebar-->
+
+            <div class="updates">
+                <span class="material-icons-sharp">update</span>
+                <h4>Updates Available</h4>
+                <p>Security Updates</p>
+                <p> General Updates</p>
+                <a href="#">Update Now</a>
+            </div><!--end of updates-->
+        </aside><!------------------------------------end of aside---------------------->
+        
+        <section class="middle">
+
+            <div class="header">
+                <h1>Overview</h1>
+                <input type="date">
+            </div><!--end of header-->
+
+            <div class="cards">
+                <div class="card">
+                    <div class="top">
+                        <div class="left">
+                            <img src="/images/BTC.png" alt="">
+                            <h2>BTC</h2>
+                        </div><!--end of left-->
+                        <img src="/images/visa.png" class="right">
+                    </div><!--end of top-->
+                    <div class="middle">
+                        <h1>$827,199</h1>
+                        <div class="chip">
+                            <img src="/images/card chip.png" >
+                        </div>
+                        
+                    </div><!--end of middle-->
+                    
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Card Holder</small>
+                            <h5>JOHN DOE</h5>
+                        </div><!--end of left-->
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Expiry</small>
+                                <h5>08/23</h5>
+                            </div><!--end of expiry-->
+
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>123</h5>
+                            </div><!--end of cvv-->
+                        </div><!--end of right-->
+                    </div><!--end of bottom-->
+                </div><!--END OF CARD 1-->
+
+                <div class="card">
+                    <div class="top">
+                        <div class="left">
+                            <img src="/images/ETH.png" alt="">
+                            <h2>EHT</h2>
+                        </div><!--end of left-->
+                        <img src="/images/master card.png" class="right">
+                    </div><!--end of top-->
+                    <div class="middle">
+                        <h1>$95,623</h1>
+                        <div class="chip">
+                            <img src="/images/card chip.png" >
+                        </div>
+                        
+                    </div><!--end of middle-->
+                    
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Card Holder</small>
+                            <h5>JOHN DOE</h5>
+                        </div><!--end of left-->
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Expiry</small>
+                                <h5>08/23</h5>
+                            </div><!--end of expiry-->
+
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>123</h5>
+                            </div><!--end of cvv-->
+                        </div><!--end of right-->
+                    </div><!--end of bottom-->
+                </div><!--END OF CARD 2-->
+
+                <div class="card">
+                    <div class="top">
+                        <div class="left">
+                            <img src="/images/BTC.png" alt="">
+                            <h2>BTC</h2>
+                        </div><!--end of left-->
+                        <img src="/images/visa.png" class="right">
+                    </div><!--end of top-->
+                    <div class="middle">
+                        <h1>$74,384</h1>
+                        <div class="chip">
+                            <img src="/images/card chip.png" >
+                        </div>
+                        
+                    </div><!--end of middle-->
+                    
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Card Holder</small>
+                            <h5>JOHN DOE</h5>
+                        </div><!--end of left-->
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Expiry</small>
+                                <h5>08/24</h5>
+                            </div><!--end of expiry-->
+
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>123</h5>
+                            </div><!--end of cvv-->
+                        </div><!--end of right-->
+                    </div><!--end of bottom-->
+                </div><!--END OF CARD 3-->
+            </div><!--end of cards-->
+
+            <div class="monthly-report">
+                <div class="report">
+                    <h3>Income</h3>
+                    <div>
+                        <details>
+                            <h1>29,023</h1>
+                            <h6 class="sucess">+3.5%</h6>
+                        </details>
+                        <p class="text-muted">Compared to $26,938 last month</p>
+                    </div>
+                </div><!--end of report income-->
+
+                <div class="report">
+                    <h3>Expenses</h3>
+                    <div>
+                        <details>
+                            <h1>9,005</h1>
+                            <h6 class="danger">+6.5%</h6>
+                        </details>
+                        <p class="text-muted">Compared to $11,912 last month</p>
+                    </div>
+                </div><!--end of report expenses-->
+
+
+                <div class="report">
+                    <h3>Cashback</h3>
+                    <div>
+                        <details>
+                            <h1>9,004</h1>
+                            <h6 class="sucess">+7.1%</h6>
+                        </details>
+                        <p class="text-muted">Compared to $3,028 last month</p>
+                    </div>
+                </div><!--end of report cashback-->
+
+                <div class="report">
+                    <h3>Income</h3>
+                    <div>
+                        <details>
+                            <h1>29,023</h1>
+                            <h6 class="sucess">-17.8%</h6>
+                        </details>
+                        <p class="text-muted">Compared to $114,234 last month</p>
+                    </div>
+                </div><!--end of report turnover-->
+            </div><!--end of monthly report-->
+            <div class="fast-payment">
+                <h2>Fast Payment</h2>
+                <div class="badges">
+                    <div class="badge1">
+                        <span class="material-icons-sharp">add</span>
+                    </div>
+        
+                    <div class="badge">
+                        <span class="bg-primary"></span>
+                        <div>
+                            <h5>Training</h5>
+                            <h4>$50</h4>
+                        </div>
+                    <div class="badge">
+                        <span class="bg-success"></span>
+                        <div>
+                            <h5>Internet</h5>
+                            <h4>$40</h4>
+                        </div>
+        
+                    <div class="badge">
+                        <span class="bg-primary"></span>
+                        <div>
+                            <h5>Gas</h5>
+                            <h4>$190</h4>
+                        </div>
+        
+                    <div class="badge">
+                        <span class="bg-primary"></span>
+                        <div>
+                            <h5>Movies</h5>
+                            <h4>$35</h4>
+                        </div>
+        
+                    <div class="badge">
+                        <span class="bg-primary"></span>
+                        <div>
+                            <h5>Education</h5>
+                            <h4>$999</h4>
+                        </div>
+                    <div class="badge">
+                        <span class="bg-primary"></span>
+                        <div>
+                            <h5>Electricity</h5>
+                            <h4>$109</h4>
+                        </div>
+        
+                    <div class="badge">
+                        <span class="bg-danger"></span>
+                        <div>
+                            <h5>Training</h5>
+                            <h4>$50</h4>
+                        </div>
+        
+                    <div class="badge">
+                        <span class="bg-success"></span>
+                        <div>
+                            <h5>Food</h5>
+                            <h4>$399</h4>
+                        </div>
+                </div><!--end of badges-->
+            </div><!--end of fast-payment-->
+            
+        </section>
+            <!---------------------------end of middle----------------------------------------->    
+
+
+            <section class="right">
+
+            </section><!--end of right-->
+
+    </main>
+
+    
+    
+</body>
+</html>

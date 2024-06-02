@@ -11,6 +11,7 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!--STYLESHEET -->
     <link rel="stylesheet" href="/style/style.css">
 </head>
@@ -264,7 +265,7 @@
             <div class="fast-payment">
                 <h2>Fast Payment</h2>
                 <div class="badges">
-                    <div class="badge1">
+                    <div class="badge">
                         <span class="material-icons-sharp">add</span>
                     </div>
         
@@ -274,12 +275,14 @@
                             <h5>Training</h5>
                             <h4>$50</h4>
                         </div>
+                    </div>
                     <div class="badge">
                         <span class="bg-success"></span>
                         <div>
                             <h5>Internet</h5>
                             <h4>$40</h4>
                         </div>
+                    </div>
         
                     <div class="badge">
                         <span class="bg-primary"></span>
@@ -287,13 +290,14 @@
                             <h5>Gas</h5>
                             <h4>$190</h4>
                         </div>
-        
+                    </div>
                     <div class="badge">
                         <span class="bg-primary"></span>
                         <div>
                             <h5>Movies</h5>
                             <h4>$35</h4>
                         </div>
+                    </div>
         
                     <div class="badge">
                         <span class="bg-primary"></span>
@@ -301,12 +305,15 @@
                             <h5>Education</h5>
                             <h4>$999</h4>
                         </div>
+                    </div>
                     <div class="badge">
                         <span class="bg-primary"></span>
                         <div>
                             <h5>Electricity</h5>
                             <h4>$109</h4>
                         </div>
+
+                    </div>
         
                     <div class="badge">
                         <span class="bg-danger"></span>
@@ -314,6 +321,7 @@
                             <h5>Training</h5>
                             <h4>$50</h4>
                         </div>
+                    </div>
         
                     <div class="badge">
                         <span class="bg-success"></span>
@@ -321,20 +329,223 @@
                             <h5>Food</h5>
                             <h4>$399</h4>
                         </div>
+                    </div>
                 </div><!--end of badges-->
             </div><!--end of fast-payment-->
-            
+            <canvas id="chart">
+
+            </canvas><!--chart-->
         </section>
             <!---------------------------end of middle----------------------------------------->    
 
 
             <section class="right">
+                <div class="investments">
+                    <div class="header">
+                        <h2>Investimentos</h2>
+                        <a href="#">More<span class="material-symbols-outlined">chevron_right</span></a>
+                    </div>
+                    <div class="investment">
+                        <img src="/images/uniliver.png">
+                        <h4>Uniliver</h4>
+                        <div class="date-time">
+                            <p>7 Dec, 2022</p>
+                            <small class="texted-muted">10:22 Pm</small>
+                        </div>
+                        <div class="bonds">
+                            <p>1408</p>
+                            <small class="texted-muted">Bonds</small>
+                        </div>
+                        <div class="amount">
+                            <h4>R$20.243</h4>
+                            <small class="danger">-5%</small>
+                        </div>
+                    </div>
 
+                    <div class="investment">
+                        <img src="/images/tesla.png">
+                        <h4>Tesla</h4>
+                        <div class="date-time">
+                            <p>14 Fev, 2023</p>
+                            <small class="texted-muted">10:22 Pm</small>
+                        </div>
+                        <div class="bonds">
+                            <p>1408</p>
+                            <small class="texted-muted">Bonds</small>
+                        </div>
+                        <div class="amount">
+                            <h4>R$20.243</h4>
+                            <small class="danger">-5%</small>
+                        </div>
+                    </div>
+
+                    <div class="investment">
+                        <img src="/images/monster.png">
+                        <h4>Uniliver</h4>
+                        <div class="date-time">
+                            <p>7 Dec, 2022</p>
+                            <small class="texted-muted">10:22 Pm</small>
+                        </div>
+                        <div class="bonds">
+                            <p>1408</p>
+                            <small class="texted-muted">Bonds</small>
+                        </div>
+                        <div class="amount">
+                            <h4>R$20.243</h4>
+                            <small class="danger">-5%</small>
+                        </div>
+                    </div>
+
+                    <div class="investment">
+                        <img src="/images/mcdonalds.png">
+                        <h4>Uniliver</h4>
+                        <div class="date-time">
+                            <p>7 Dec, 2022</p>
+                            <small class="texted-muted">10:22 Pm</small>
+                        </div>
+                        <div class="bonds">
+                            <p>1408</p>
+                            <small class="texted-muted">Bonds</small>
+                        </div>
+                        <div class="amount">
+                            <h4>R$20.243</h4>
+                            <small class="danger">-5%</small>
+                        </div>
+                    </div>
+                </div><!--end of investments-->
+
+                <div class="recent-transactions">
+                    <div class="header">
+                        <h2>Transações Recentes</h2>
+                        <a href="#">More <span class="material-symbols-outlined">chevron_right</span></a>
+                    </div>
+                    
+                    <div class="transaction">
+                        <div class="service">
+                            <div class="icon bg-purple-light">
+                                <span class="material-icons-sharp bg-purple-light">headphones</span>
+                            </div>
+                            <div class="details">
+                                <h4>Music</h4>
+                                <p>20.10.2005</p>
+                            </div>
+
+                            <div class="card-details">
+                               <div class="card bg-danger">
+                                    <img src="/images/visa.png" alt="logo visa">
+                               </div>
+                               <div class="details">
+                                    <p>*2757</p>
+                                    <small class="texted-muted">Cartão de Crédito</small>
+                               </div>
+                               <h4>R$-20,00</h4>
+                            </div>
+                        </div><!--service-->
+                    </div><!--transaction-->
+
+                    <div class="transaction">
+                        <div class="service">
+                            <div class="icon bg-purple-light">
+                                <span class="material-icons-sharp purple" >shopping_bag</span>
+                            </div>
+                            <div class="details">
+                                <h4>Shopping</h4>
+                                <p>04.05.2005</p>
+                            </div>
+
+                            <div class="card-details">
+                               <div class="card bg-primary">
+                                    <img src="/images/visa.png" alt="logo visa">
+                               </div>
+                               <div class="details">
+                                    <p>*2757</p>
+                                    <small class="texted-muted">Cartão de Crédito</small>
+                               </div>
+                               <h4>R$-180,00</h4>
+                            </div>
+                        </div><!--service-->
+                    </div><!--transaction-->
+
+                    <div class="transaction">
+                        <div class="service">
+                            <div class="icon bg-success">
+                                <span class="material-icons-sharp sucess">restaurant</span>
+                            </div>
+                            <div class="details">
+                                <h4>Restaurante</h4>
+                                <p>02.03.2005</p>
+                            </div>
+
+                            <div class="card-details">
+                               <div class="card bg-dark">
+                                    <img src="/images/master card.png" alt="logo mastercard">
+                               </div>
+                               <div class="details">
+                                    <p>*2757</p>
+                                    <small class="texted-muted">Master Card</small>
+                               </div>
+                               <h4>R$- 80,00</h4>
+                            </div>
+                        </div><!--service-->
+                    </div><!--transaction-->
+
+                    <div class="transaction">
+                        <div class="service">
+                            <div class="icon bg-danger-light">
+                                <span class="material-icons-sharp">sports_esports</span>
+                            </div>
+                            <div class="details">
+                                <h4>Jogos</h4>
+                                <p>15.06.2005</p>
+                            </div>
+
+                            <div class="card-details">
+                               <div class="card bg-danger">
+                                    <img src="/images/visa.png" alt="logo visa">
+                               </div>
+                               <div class="details">
+                                    <p>*2757</p>
+                                    <small class="texted-muted">Cartão de Crédito</small>
+                               </div>
+                               <h4>R$-120,00</h4>
+                            </div>
+                        </div><!--service-->
+                    </div><!--transaction-->
+
+
+                    <div class="transaction">
+                        <div class="service">
+                            <div class="icon bg-danger-light">
+                                <span class="material-icons-sharp">medication</span>
+                            </div>
+                            <div class="details">
+                                <h4>Remédios</h4>
+                                <p>22.08.2005</p>
+                            </div>
+
+                            <div class="card-details">
+                               <div class="card bg-primary">
+                                    <img src="/images/visa.png" alt="logo visa">
+                               </div>
+                               <div class="details">
+                                    <p>*2757</p>
+                                    <small class="texted-muted">Cartão de Crédito</small>
+                               </div>
+                               <h4>- R$50,00</h4>
+                            </div>
+                        </div><!--service-->
+                    </div><!--transaction-->
+
+
+                </div><!--recent-transactions-->
             </section><!--end of right-->
 
     </main>
+<!------------------------end of aside------------------->
 
-    
-    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js" integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="./main.js"></script>
+     
 </body>
 </html>
